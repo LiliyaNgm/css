@@ -9,9 +9,14 @@
 	font-family: 'Times New Roman', Times, serif; 
 	font-weight: 900;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .button10 {
     background-color: #008CBA;
-    display: inline;
+    display: inline-block;
     border: none;
     border-radius: 15px;
     padding: 15px 25px;
@@ -29,7 +34,7 @@
 }
 .button11 {
     background-color: #008CBA;
-    display: inline;
+    display: inline-table;
     border: none;
     border-radius: 15px;
     padding: 15px 25px;
@@ -47,13 +52,14 @@
 }
 .button12 {
     background-color: #008CBA;
-    display: inline;
+    display: inline-table;
     border: none;
     border-radius: 15px;
     padding: 15px 25px;
     font-size: 14px;
     margin: 10px;
     box-shadow: 0 7px #999;
+    
 } 
 .button12:hover {
     background-color: #008CBA;
@@ -64,6 +70,3 @@
     box-shadow: 0 5px #666;
 }
 
-p { color: black;
-
-}
