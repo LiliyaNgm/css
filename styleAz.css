@@ -4,14 +4,11 @@
 	align-items: center;
 }
 .box {
-	width: 200px;
-	height: 100px;
+	
 	font-family: 'Times New Roman', Times, serif; 
 	font-weight: 900;
 }
-img {
-    height: 550px;
-}
+
 p { color: green;
 
 }
