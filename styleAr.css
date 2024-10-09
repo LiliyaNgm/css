@@ -14,7 +14,12 @@ a {
 }
 
 .btn-group button {
-    background-color: #008CBA;
+    background-color: orange;
+    background-image: linear-gradient(
+    red 30%,
+    blue 66%,
+    orange 33%
+    );
     display: inline-block;
     border: none;
     border-radius: 15px;
@@ -24,10 +29,10 @@ a {
     box-shadow: 0 7px #999;
 } 
 .btn-group button:hover {
-    background-color: #008CBA;
+    background-color: orange;
 }
 .btn-group button:active {
-    background-color: #008CBA;
+    background-color: orange;
     transform: translateY(4px);
     box-shadow: 0 5px #666;
 }
