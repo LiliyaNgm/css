@@ -3,11 +3,6 @@
 	flex-direction: column;
 	align-items: center;
 }
-.box {
-	
-	font-family: 'Times New Roman', Times, serif; 
-	font-weight: 900;
-}
 .beads {
 	list-style: none;
 	margin: 0;
@@ -57,3 +52,10 @@
 	background: #A58063;
 	}
 	.beads li:hover:before {background: #FFCE08;}
+	.gradient {
+	height: 960px; 
+	width: 76%; 
+	margin: 0 auto;
+	border: 10px solid transparent;
+	border-image: 10 repeating-linear-gradient(45deg, #A7CECC, #A7CECC 10px, transparent 10px, transparent 20px, #F8463F 20px, #F8463F 30px,transparent 30px, transparent 40px);
+	}
