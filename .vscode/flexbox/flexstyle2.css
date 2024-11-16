@@ -1,4 +1,4 @@
-* {
+{
     box-sizing: border-box;
 }
 
@@ -12,31 +12,16 @@ body {
 .container {
 	display: flex;
     border: 10px solid blue;
-    height: 100vh;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: start;
-    align-items: start;
-    
+    gap: 20px;
 }
+
 .item {
     background: black;
     border: 1px solid blue;
     padding: 10px;
     text-align: center;
-
+    margin: 20px;
+    flex: 0 1 calc(100% / 3 * 20px * 2 / 3);
 } 
-.item9 {
-    order: -1;
-    font-size: 40px;
-    margin: auto;
-}
 
-.item2 {
-    order: 1;
-    font-size: 120px;
-}
-.item5 {
-    flex: 1;
-    align-self: center;
-}
