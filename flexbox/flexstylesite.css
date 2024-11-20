@@ -1,0 +1,49 @@
+
+body {
+    background: black;
+    border: 10px solid white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.card {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    text-align: center;
+    }
+
+.card__name {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    }
+
+.card__school {
+    color: grey;
+}
+.card__stats {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    flex-basis: 5;
+    padding: 10px;
+    
+    }
+.card1 {   
+    color: black;
+    font-weight: bold;
+
+    }
+.card__stat {
+   display: flex;
+   flex-direction: column;
+   color: grey;
+   
+}
