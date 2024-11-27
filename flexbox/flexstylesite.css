@@ -14,51 +14,83 @@
 .container_top {
     background-color: white;
     padding: 15px;
-    width: 100vh;
+    min-width: 100vh;
     justify-content: center;
     position: absolute;
     top: 20%;
     left: 5%;
     display: flex;
     gap: 20px;
+    height: 70px;
+    
 }
 
 .course {
     display: flex;
-    gap: 20px;
-   
+    min-width: 50vh;
+    
 }
 
 .course_top {
-    gap: 20px;
+    
     color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
 
+.course_top1 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    
 }
 
 .course_all {
-    gap: 20px;
+    
     border: 1px solid blue;
     border-radius: 15px;
     color: blue;
     font-size: small;
     width: 10vh;
+    margin-left: 20px;
     text-align: center;
+    align-content: center;
 }
 
 .others {
     display: flex;
     gap: 20px;
     font-size: small;
+    align-items: start;
+    transform: translateY(10px);
 }
 
 .search {
-    gap: 20px;
     font-size: small;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
+
+.search__logo {
+    color: blue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .login {
     font-size: small;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo {
+    color: blue;
+    align-items: center;
+    justify-content: end;
+    display: grid;
 }
 
 .container {
