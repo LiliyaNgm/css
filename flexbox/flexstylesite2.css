@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+    background-color: black;
+    font-size: 15px;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.container {
+    background-color: white;
+    padding: 15px;
+    width: 45vh;
+    justify-content: center;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    
+}
+.card__logo {
+    margin: 10px;
+}
+.card {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.card__name {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1; 
+    
+}
+
+.card__school {
+    color: grey;
+    text-align: left;
+    font-size: smaller;
+}
+
+.card__stats {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    flex-basis: 5;
+    padding: 10px;
+    font-size: smaller;
+    
+}
+
+.left {
+    text-align: left;
+}
+
+.card1 {   
+    color: black; 
+}
+
+.card__stat {
+   display: flex;
+   flex-direction: column;
+   color: grey;
+}
